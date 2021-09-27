@@ -1,0 +1,27 @@
+
+
+nombre pagina/logo
+
+categorias 
+input busqueda
+boton top fixed
+boton ordenar por
+
+
+
+
+
+
+CARDS MANGAS
+
+imagen
+nombre manga ingles
+nombre manga japones
+popularity rank
+estado
+fecha de comienzo
+cantidad capitulos
+
+HOVER CARDS
+
+poner mas detalles
