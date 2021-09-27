@@ -1,23 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     padding: 0%;
     margin: 0%;
+    width: 100%;
+    box-sizing: border-box;
 }
+
+header {
+    
+}
+
+
+/* ************************************UTILIDADES************************************ */
+:root {
+    --primario:#fb5607;
+    --secundario:: #14213d;
+
+}
+
+
+
+
+/*************************************************************************************/
+
+
+
 
 /* ************************************NAVBAR************************************ */
 
 nav{
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     background-color: #14213d;
     color: #fb5607;
     font-size: 20px;
-    position: fixed;
     
 }
 
-ul{
-    width: 100%;
+nav ul {
    display: flex; 
    flex-direction: row;   
 }
@@ -34,10 +59,48 @@ ul{
     width: 18em;
 }
 
-h1{
+nav h1{
     font-size: 20px;
     padding: 1em;
     margin: 0%;
     display: flex;
     justify-content: left;
+}
+
+
+/* ***************************************************************************** */
+
+
+/* ************************************MAIN************************************ */
+
+main {
+    background-color: grey;
+    height: 100vh;
+}
+
+
+.contenedor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-mangas {
+    margin-top: 30px;
+    width: 300px;
+    height: 450px;
+    background-color: indianred;
+    display: flex;
+    width: 300px;
+    height: 450px;
+    background-color: indianred;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-mangas h3 {
+    
 }
