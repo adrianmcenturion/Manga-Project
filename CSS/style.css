@@ -12,7 +12,7 @@ nav{
     background-color: #14213d;
     color: #fb5607;
     font-size: 20px;
-    position: fixed;
+    /* position: fixed; */
     
 }
 
@@ -36,8 +36,26 @@ ul{
 
 h1{
     font-size: 20px;
-    padding: 1em;
-    margin: 0%;
+    margin-top: 1.2em;
     display: flex;
     justify-content: left;
 }
+
+.random{
+    height: 2.5em;
+    width: 7em;
+    border-radius: 89px 89px 89px 89px;
+-webkit-border-radius: 89px 89px 89px 89px;
+-moz-border-radius: 89px 89px 89px 89px;
+    border: 2px solid #fb5607;
+    background-color: transparent;
+    color: #fb5607;
+    /* animation: fill 5s infinite ease-in-out; */
+}
+
+.random:hover {
+    background-color: #fb5607;
+    color: #14213d;
+    animation: pulse 1s;
+}
+
