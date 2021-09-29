@@ -121,3 +121,24 @@ main {
 .card-mangas h3 {
     
 }
+
+
+/* ***************************************************************************** */
+
+
+/* ************************************FOOTER************************************ */
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    background-color: black;
+    margin: 0;
+    color: #fb5607;
+}
+
+.footer-lista{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
