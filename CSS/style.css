@@ -114,6 +114,11 @@ main {
     border-radius: 30px;
 }
 
+.card-mangas span {
+    color: var(--primario);
+    background-color: black;
+}
+
 
 .mini-container-cards {
     flex-direction: row;
