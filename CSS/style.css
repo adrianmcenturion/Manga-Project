@@ -121,15 +121,24 @@ main {
 
 
 .mini-container-cards {
-    flex-direction: row;
-    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
-.mini-container-cards span {
-    border-radius: 30px;
-    padding: 8px;
-    background-color: grey;
-} 
+
+.container-card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container-card-2 {
+    position: absolute;
+    visibility: hidden;
+}
 
 
 /* ***************************************************************************** */
